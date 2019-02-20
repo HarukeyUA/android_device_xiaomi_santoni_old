@@ -17,12 +17,12 @@
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
 # Inherit some common Syberia stuff.
-$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
+$(call inherit-product, vendor/lean/config/common.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := syberia_santoni
+PRODUCT_NAME := lean_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
@@ -32,7 +32,7 @@ TARGET_VENDOR_PRODUCT_NAME := santoni
 
 TARGET_BOOT_ANIMATION_RES := 720
 
-SYBERIA_BUILD_TYPE := OFFICIAL
+LEAN_BUILD_TYPE := WOLF-EXCLUSIVE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="santoni-user 7.1.2 N2G47H V9.5.10.0.NAMMIFD release-keys"
