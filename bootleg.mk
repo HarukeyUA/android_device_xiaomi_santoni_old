@@ -29,6 +29,8 @@ PRODUCT_NAME := bootleg_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+BOOTLEGGERS_BUILD_TYPE := Shishufied
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := santoni
