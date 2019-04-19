@@ -315,9 +315,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Xiaomi Parts
+# DiracControl
 PRODUCT_PACKAGES += \
-    XiaomiParts
+    DiracControl
 
 PRODUCT_BOOT_JARS += \
     QPerformance \
