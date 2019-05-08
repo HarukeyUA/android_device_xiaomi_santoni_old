@@ -170,10 +170,6 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_santoni
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage Hardware
-BOARD_HARDWARE_CLASS += \
-    $(DEVICE_PATH)/lineagehw
-
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
 
