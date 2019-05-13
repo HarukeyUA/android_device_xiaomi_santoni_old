@@ -23,6 +23,7 @@ $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 720
+EXTENDED_BUILD_TYPE := OFFICIAL
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
